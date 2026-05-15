@@ -83,20 +83,19 @@ data/
 
 ## リポジトリ構成
 
-```
+```text
 ├── notebooks/
 │   ├── 01_Lung_analysis.ipynb
-│   └─ 02_ML.ipynb
+│   └── 02_ML.ipynb
 │
-├── data/results
-|    ├── raw/        # raw data（GitHub には含めていない）
-│   ├── processed_data.pkl
-│   └── ml_results.pkl
+├── data/
+│   ├── raw/        # raw data（GitHub には含めていない）
+│   └── results/
+│       ├── processed_data.pkl
+│       └── ml_results.pkl
 │
 ├── README.md
 └── .gitignore
-```
-
 ---
 
 ## 実行順序
