@@ -101,6 +101,9 @@ data/
 
 ## 実行順序
 
+> 注: Notebook 冒頭の Google Drive マウントおよび作業ディレクトリの変更は Colab 環境用。  
+> ローカルで実行する場合は該当セルをスキップし、`notebooks/` を作業ディレクトリとして実行する。
+> 
 1. raw data を `data/raw/` に配置
 2. `01_Lung_analysis.ipynb` を実行
 3. `data/results/processed_data.pkl` が保存される
